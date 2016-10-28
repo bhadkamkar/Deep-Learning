@@ -39,7 +39,7 @@ b = testmodels(X_tr, y_tr, X_te, y_te,
                 sgd_decays=[0.0], sgd_moms=[0.0], 
                 sgd_Nesterov=False, EStop=False, verbose=0)
 end_time = time.time()
-print ""Linear activation 2 took: ",end_time-start_time," sec"
+print "Linear activation 2 took: ",end_time-start_time," sec"
 
 
 #sigmoid activation
