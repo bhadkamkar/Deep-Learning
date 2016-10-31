@@ -107,11 +107,10 @@ running time =  207.963562012
 Best Config: architecture = [50, 800, 500, 300, 2], lambda = 0.0, decay = 5e-05, momentum = 0.99, actfn = relu, best_acc = 0.843462892895
 Momentum took:  1033.15620399  sec
 ----------------- combine -----------------
-Epoch 00007: early stopping
-Score for architecture = [50, 800, 500, 300, 2], lambda = 5e-06, decay = 5e-05,momentum = 0.99, actfn = relu: 0.774074501708
-running time =  34.4071660042
-Best Config: architecture = [50, 800, 500, 300, 2], lambda = 5e-06, decay = 5e-05, momentum = 0.99, actfn = relu, best_acc = 0.774074501708
-Combine took:  34.4072680473  sec
+Score for architecture = [50, 800, 500, 300, 2], lambda = 5e-06, decay = 5e-05,momentum = 0.99, actfn = relu: 0.86229962056
+running time =  846.177973986
+Best Config: architecture = [50, 800, 500, 300, 2], lambda = 5e-06, decay = 5e-05, momentum = 0.99, actfn = relu, best_acc = 0.86229962056
+Combine took:  846.178019047  sec
 ----------------- grid search -----------------
 Score for architecture = [50, 50, 2], lambda = 1e-07, decay = 1e-05,momentum = 0.99, actfn = relu: 0.841502326076
 running time =  20.7134571075
